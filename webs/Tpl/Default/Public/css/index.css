@@ -1,0 +1,41 @@
+#content_left h2 img{
+	margin-left: 10px;
+}
+.home_article_title{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.home_article_title a{
+	text-decoration: none;
+	font-size: 28px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.home_article_content{
+	text-indent: 2em;
+	font-size: 22px;
+	font-family: KaiTi;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #000000;
+}
+.home_article_foot{
+	width: 670px;
+	height: 35px;
+	background-color: #DCDCDC;
+	margin-left: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 14px;
+	-moz-border-radius:14px;                /*老版本的火狐*/
+}
+.home_article_foot p{
+	display: inline;
+	float:right;
+	margin-right: 10px;
+	font-size: 22px;
+	margin-top: 5px;
+	color: #000000;
+}

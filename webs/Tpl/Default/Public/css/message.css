@@ -1,0 +1,141 @@
+#content_left h2 img{
+	margin-left: 10px;
+}
+.message{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 2em;
+	font-size: 20px;
+	line-height: 35px;
+	font-family: STXingkai ;
+}
+.auther{
+	font-size: 20px;
+	margin-left: 500px;
+	font-family: STXingkai ;
+}
+.input_name{
+	width: 120px;
+	height: 28px;
+	font-size: 22px;
+	border-radius: 8px;
+}
+.input_email{
+	width: 240px;
+	height: 28px;
+	font-size: 22px;
+	border-radius: 8px;
+}
+.input_sex{
+	width: 20px;
+	height: 20px;
+}
+.input_select{
+	width: 70px;
+	height: 34px;
+	font-size: 18px;
+	font-family: KaiTi ;
+}
+.name_msg{
+	display: inline;
+	color: 	#FF0000;
+	font-size: 18px;
+}
+.email_msg{
+	display: inline;
+	color: 	#FF0000;
+	font-size: 18px;
+}
+b{
+	display: none;
+	color: 	#008000;
+	font-size: 12px;
+}
+#message{
+	margin-left: 30px;
+	line-height: 38px;
+	font-size: 22px;
+	font-family: KaiTi ;
+}
+#message textarea{
+	width: 530px;
+	border:1px solid #FF0000;
+	height: 215px;
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: STXingkai ;
+}
+#message form button{
+	width: 100px;
+	height: 38px;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.message_box{
+	width: 680px;
+	border-top: 1px solid #000000;
+}
+#show_message{
+	height: 500px;
+	overflow: scroll;
+}
+.show_personl ul li{
+	list-style-type: none;
+	font-size: 25px;
+	margin-left: 500px;
+	font-family: STXingkai ;
+	position: relative;
+}
+.show_personl ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+.show_personl ul li ul{
+	display: none;
+}
+.show_personl ul li:hover ul{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 380px;
+	height:200px;
+	position: absolute;
+	background-color: #DCDCDC;
+	right: 140px;
+	bottom:-60px;
+	border-radius: 25px;
+  	/* for IE */
+    filter:alpha(opacity=80);
+  	/* CSS3 standard */
+  	opacity:0.8;
+ 	-moz-box-shadow: 8px 8px 4px #888888; /* 老的 Firefox */
+	box-shadow: 8px 8px 4px #888888;
+}
+.show_personl ul li:hover ul li{
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 25px;
+	padding: 0px;
+	font-family: KAITI;
+}
+.show_floor{
+	font-family: STXingkai;
+	font-size: 25px;
+	margin-top: 18px;
+	text-indent: 0.4em;
+
+}
+#search_form{
+	position: absolute;
+	right: 50px;
+	top: 30px;
+	font-family: KAITI;
+	font-size: 22px;
+}
+#search_form form button{
+	width: 60px;
+	height: 28px;
+	font-size: 20px;
+}
